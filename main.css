@@ -1,0 +1,25 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: 1s;
+}
+
+/* 마우스 커서를 올리면 변화 */
+.box:hover { 
+  width: 300px;
+  background-color: grey;
+}
+
+.box:active { 
+  width: 200px;
+  background-color: black;
+}
+
+input:focus {
+  background-color: tomato;
+}
+
+.box2::before {
+  content: '앞!';
+}
